@@ -15,6 +15,6 @@ https://blog.csdn.net/z_wen_quan/article/details/79737567
 将获取到的数据拼接成SQL语句，或者拼接为JSON字符串输出
 工具类ChinaCityNameUtils 中有四个方法：
 
- printProvinceSQL()   printCitySQL ()    printAreaSQL()   分别在控制台打印 表 province   city  area  的 插入SQL 语句
-getCitiesJson 在控制台打印 json字符串，并保持到D盘
+1、printProvinceSQL()   printCitySQL ()    printAreaSQL()   分别在控制台打印 表 province   city  area  的 插入SQL 语句
+2、getCitiesJson 在控制台打印 json字符串，并保持到D盘
 注意，sql语句是根据我用的数据库的格式拼接的，如果使用的数据库格式和我使用的不通，可以自行修改对应的SQL语句
