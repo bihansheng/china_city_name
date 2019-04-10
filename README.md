@@ -5,7 +5,7 @@
 
 https://blog.csdn.net/z_wen_quan/article/details/79737567
 
-不过他使用的php，我没有php环境，而且数据库的格式不一样，所以自己重新写了一个工具类。
+不过他使用的php，我没有php环境，而且数据库的格式不一样，所以自己重新写了一个工具类ChinaCityNameUtils。
 
 思路是：
 
@@ -18,3 +18,5 @@ https://blog.csdn.net/z_wen_quan/article/details/79737567
 1、printProvinceSQL()   printCitySQL ()    printAreaSQL()   分别在控制台打印 表 province   city  area  的 插入SQL 语句
 2、getCitiesJson 在控制台打印 json字符串，并保持到D盘
 注意，sql语句是根据我用的数据库的格式拼接的，如果使用的数据库格式和我使用的不通，可以自行修改对应的SQL语句
+
+https://blog.csdn.net/bihansheng2010/article/details/89177237
