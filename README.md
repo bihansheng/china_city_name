@@ -13,9 +13,7 @@ https://blog.csdn.net/z_wen_quan/article/details/79737567
 通过网络请求可以通过URL获取到当前界面的源码
 通过正则表达式 截取需要的数据，包括 名称、统计用区划代码、跳转下级界面ID
 将获取到的数据拼接成SQL语句，或者拼接为JSON字符串输出
-工具类如下，
-
-有四个方法：
+工具类ChinaCityNameUtils 中有四个方法：
 
  printProvinceSQL()   printCitySQL ()    printAreaSQL()   分别在控制台打印 表 province   city  area  的 插入SQL 语句
 getCitiesJson 在控制台打印 json字符串，并保持到D盘
