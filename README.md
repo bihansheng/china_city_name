@@ -1,9 +1,7 @@
 # china_city_name
 最近发现项目中使用的省市区数据库很旧了，很多新增区的数据没有。网上找了很多，都不是最新了。
 
-找到一篇博客，他是自己去国家统计局上取的，
-
-https://blog.csdn.net/z_wen_quan/article/details/79737567
+找到一篇博客，他是自己去国家统计局上取的，https://blog.csdn.net/z_wen_quan/article/details/79737567
 
 不过他使用的php，我没有php环境，而且数据库的格式不一样，所以自己重新写了一个工具类ChinaCityNameUtils。
 
